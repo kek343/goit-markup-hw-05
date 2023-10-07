@@ -685,8 +685,8 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.03em;
-  padding-bottom: 16px;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 .footer-button {
@@ -742,8 +742,15 @@ img {
   fill: #ffffff;
   transform: translateY(-50%);
 }
-.footer-input-box {
+/* .footer-input-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+
+.footer-form {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  gap: 24px;
+}
+.footer-form-lable {
 }
