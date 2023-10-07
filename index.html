@@ -448,19 +448,20 @@
             </svg>
           </div>
         </div>
-        <div class="modal-field">
-          <label for="user-text" class="user-name-lable">Comment</label>
-          <textarea name="user-text" id="user-text" class="modal-textarea" placeholder="Text input"></textarea>
+        <div class="modal-field-area">
+          <label for="user-comment" class="user-name-lable">Comment</label>
+          <textarea name="user-comment" id="user-comment" class="modal-textarea" placeholder="Text input"></textarea>
         </div>
-        <div class="modal-field">
-          <input class="modal-check visually-hidden" type="checkbox" name="agree" id="agree" required>
-          <label class="form-label" for="agree">
+        <div class="modal-field-check">
+          <input class="modal-check visually-hidden" id="user-privacy" value="true" type="checkbox" name="user-privacy"
+            id="agree" required>
+          <label class="form-label" for="user-privacy">
             <span class="form-label-box">
               <svg class="form-label-icon" width="10" height="8">
                 <use href="./images/icons.svg#icon-Vector"></use>
               </svg>
             </span>
-            <span class="agree-text"> I accept the terms and conditions of the</span> <a class="agree-link" href="">
+            I accept the terms and conditions of the<a class="agree-link" href="">
               Privacy
               Policy</a>
           </label>
