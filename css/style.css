@@ -686,11 +686,12 @@ img {
 }
 .form-label-box {
   width: 16px;
-  display: inline-flex;
+
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -786,6 +787,4 @@ img {
 
 .modal-field-check {
   margin-bottom: 24px;
-}
-.modal-check {
 }
