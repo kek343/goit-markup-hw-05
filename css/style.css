@@ -675,7 +675,7 @@ img {
   border: none;
 }
 .agree-text {
-  gap: 2px;
+  margin-right: 4px;
 }
 .footer-send {
   margin-left: 80px;
