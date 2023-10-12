@@ -221,7 +221,10 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+.achievements {
+  display: flex;
+  flex-wrap: wrap;
+}
 .achievement-icon-container {
   padding: 24px 100px;
   border-radius: 4px;
@@ -235,25 +238,35 @@ img {
 }
 .achievements-title {
   color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 36px;
+  font-weight: 700;
   letter-spacing: 0.02em;
-  line-height: 1.2;
+  line-height: 1.1;
   margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  text-transform: capitalize;
+
+
 }
 .achievements-list {
-  gap: 24px;
+  gap: 72px;
   display: flex;
+  flex-wrap: wrap;
 }
 .achievement-item {
-  width: calc((100% - 72px) / 4);
+  width: 100%;
 }
 .achievements-text {
   color: #434455;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.02;
   line-height: 1.5;
+  align-self: stretch;
 }
 /** ====== TEAM ======= */
 .team-section {
